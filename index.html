@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <style>
+    body{
+      
+      background-color: aqua;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+   
+ 
+ <!--  SINGLE FILE -->
+ <h1>GIVE INDIA</h1>
+ <h2>please provide a csv file</h2>
+<form action="/uploadfile" enctype="multipart/form-data" method="POST"> 
+   <input type="file" name="myFile"/>
+   <input type="text" name="username" placeholder="currency code" maxlength="3" onkeyup="this.value = this.value.toUpperCase();"/>
+   <input type="submit" value="submit" onclick="getOption()"/>
+</form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<label for="currency">Check your country currency code then type in currency code:</label>
+  <select id="currency" name="currency">
+    <option value="USD" selected="selected">United States Dollars(USD)</option>
+    <option value="EUR">Euro(EUR)</option>
+    <option value="GBP">United Kingdom Pounds(GBP)</option>
+    <option value="INR">India Rupees(INR)</option>
+    
+  </select>
+
+</body>
+</html>
