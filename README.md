@@ -18,6 +18,10 @@ Create a disbursement report from a list of donations in CSV.
 - Submit a pull request (PR)
 ###how to run
 there are two folders for storing files 
+crete two folders name
+1.uploads
+2.output
+in the same folder
 uploads is used for input file
 output is used for output file
 ###there are four java script files
