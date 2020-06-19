@@ -16,3 +16,19 @@ Create a disbursement report from a list of donations in CSV.
 - Include instructions on how to set it up and run in the README.md
 - Add your resume and other profile / project links
 - Submit a pull request (PR)
+###how to run
+there are two folders for storing files 
+uploads is used for input file
+output is used for output file
+###there are four java script files
+csvparsedata.js
+currencychangeapi.ja
+downloadcsv.js
+index.js
+//one html file
+index.html
+//to run the project 
+first run the npm install to install dependencies
+then run node index.js
+at localhost:3000 the fornt end will show and use fornend to check output
+//technologies used node js,express js,html,css,javascript
